@@ -41,3 +41,6 @@ log|logarithm: 'log('
 natural [log|logarithm]|nature: 'ln('
 
 round: 'round('
+
+#Pressing Buttons
+change angle mode: key('tab enter shift-tab')
