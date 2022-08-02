@@ -11,15 +11,16 @@ inverse:
     insert('^-1')
     edit.right()
 
+oiler|oilers [number]: 'e^'
 
 #Trigonometry
 pie: 'pi'
 
-tan|tangent: 'tan'
+tan|tangent: 'tan('
 
-sine: 'sin'
+sine: 'sin('
 
-cosine: 'cos'
+cosine: 'cos('
 
 #Operators
 fraction: ' /'
@@ -27,10 +28,16 @@ fraction: ' /'
 percent [of]: '%'
 
 #Functions
-absolute [value [of]]: '|'
+abs|absolute [value [of]]: '|'
 
 factorial|fact|bang|factor: '!'
 
 mean: 'mean('
 
 standard [deviation [of]]: 'stdev('
+
+log|logarithm: 'log('
+
+natural [log|logarithm]|nature: 'ln('
+
+round: 'round('
