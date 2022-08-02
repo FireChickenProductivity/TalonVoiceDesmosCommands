@@ -42,5 +42,8 @@ natural [log|logarithm]|nature: 'ln('
 
 round: 'round('
 
+[other|variable|n] root: 'nthroot'
+
 #Pressing Buttons
-change angle mode: key('tab enter shift-tab')
+button one: key('tab enter shift-tab')
+button two: key(tab:2 enter shift-tab:2)
