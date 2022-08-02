@@ -1,4 +1,4 @@
-title: /Desmos | Scientific Calculator/
+title: /Desmos \| Scientific Calculator/
 -
 #Exponentiation
 power|raised to [the]|raise|to the: '^'
