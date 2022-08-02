@@ -29,7 +29,7 @@ arcsine: 'arcsin('
 arccosine: 'arccos('
 
 #Operators
-fraction: ' /'
+fraction: 'frac'
 
 percent [of]: '%'
 
@@ -42,6 +42,8 @@ mean: 'mean('
 
 standard [deviation [of]]: 'stdev('
 
+(standard|stand) (deviation|dev) (population|pop): 'stdevp('
+
 log|logarithm: 'log('
 
 natural [log|logarithm]|nature: 'ln('
@@ -49,6 +51,8 @@ natural [log|logarithm]|nature: 'ln('
 round: 'round('
 
 [other|variable|n] root: 'nthroot'
+
+cube root: 'cbrt'
 
 n p r: 'nPr('
 
