@@ -1,10 +1,7 @@
 title: /Desmos \| Scientific Calculator/
 -
-#Exponentiation
-power|raised to [the]|raise|to the: '^'
+tag(): user.simple_exponentiation
 
-squared: user.desmos_exponentiation('2')
-inverse: user.desmos_exponentiation('-1')
 
 oiler|oilers [number]: 'e^'
 
