@@ -1,6 +1,6 @@
 title: /Desmos \| Matrix Calculator/
 -
-tag(): user.simple_exponentiation
+tag(): user.desmos_simple_exponentiation
 
 #This command may not work properly if the current calculation is not the last
 #It will also have unexpected results if the new matrix button is unavailable
