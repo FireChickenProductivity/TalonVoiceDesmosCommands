@@ -1,6 +1,6 @@
 title: /Desmos \| Scientific Calculator/
 -
-tag(): user.simple_exponentiation
+tag(): user.desmos_simple_exponentiation
 
 
 oiler|oilers [number]: 'e^'
