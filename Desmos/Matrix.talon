@@ -8,3 +8,12 @@ tag(): user.simple_exponentiation
 new matrix <user.desmos_matrix_dimension> [by] <user.desmos_matrix_dimension>: 
     user.desmos_new_matrix(desmos_matrix_dimension_1, desmos_matrix_dimension_2)
 
+#Matrix only exponentiation
+transpose: user.desmos_exponentiation('T')
+
+#Matrix functions
+(reduced|reduce) [row] [echelon] [form]|r r e f: 'rref('
+
+debt|determine|determinant|d e t: 'det('
+
+trace: 'trace('
