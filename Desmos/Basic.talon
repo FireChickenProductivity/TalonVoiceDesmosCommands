@@ -25,5 +25,3 @@ times: '*'
 #close parenthesis
 (close|right) paren: ')'
 
-#reference the previous answer
-ans|answer: 'ans'
