@@ -1,16 +1,20 @@
-from talon import actions, Module
+from talon import actions, Module, settings
 
 module = Module()
 
-button_delay = module.setting(
-    'desmos_matrix_button_delay',
+button_delay_setting_name = 'desmos_matrix_button_delay'
+button_delay = 'user.' + button_delay_setting_name
+module.setting(
+    button_delay_setting_name,
     type = str,
     default = 400,
     desc = 'How long to wait between button presses in the matrix calculator in milliseconds',
 )
 
-matrix_creation_key_delay = module.setting(
-    'desmos_matrix_creation_key_delay',
+matrix_creation_key_delay_setting_name = 'desmos_matrix_creation_key_delay'
+matrix_creation_key_delay = 'user.' + matrix_creation_key_delay_setting_name
+module.setting(
+    matrix_creation_key_delay_setting_name,
     type = str,
     default = 3,
     desc = 'How long to wait between key presses in milliseconds when creating a new matrix.'
@@ -47,9 +51,9 @@ def start_new_matrix():
     actions.key('tab enter')
 
 def wait_button_delay():
-    actions.sleep(f'{button_delay.get()}ms')
+    actions.sleep(f'{settings.get(button_delay)}ms')
 def wait_matrix_key_delay():
-    actions.sleep(f'{matrix_creation_key_delay.get()}ms')
+    actions.sleep(f'{settings.get(matrix_creation_key_delay)}ms')
 
 #Default Dimensions of a Matrix When Created in the Calculator
 DEFAULT_ROWS = 2
